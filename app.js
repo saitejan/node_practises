@@ -1,7 +1,7 @@
-const sum = require('./utils.js')
-require('./acc.js')
+const sum = require('./modules/utils.js')
+require('./modules/acc.js')
 
-const greet = require('./greet');
+const greet = require('./modules/greet');
 let checkingAccountBalance = 200
 let savingsAccountBalance = 1000
 let retirementAccountBalance = 20000
