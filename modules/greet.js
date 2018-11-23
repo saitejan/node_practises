@@ -12,14 +12,14 @@
 //   }
 // }
 
-exports.sayHelloInEnglish = function() {
+exports.sayHelloInEnglish = function () {
   return 'Hello'
 }
 
-exports.sayHelloInSwedish = function() {
+exports.sayHelloInSwedish = function () {
   return 'Hej'
 }
 
-exports.sayHelloInTatar = function() {
+exports.sayHelloInTatar = function () {
   return 'Isänme'
 }
