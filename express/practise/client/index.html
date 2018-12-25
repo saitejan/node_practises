@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.19/angular-ui-router.min.js"></script>
+
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="routes.js"></script>
+    <script type="text/javascript" src="modules/profile/profile_ctrl.js"></script>
+    <script type="text/javascript" src="modules/profile-add/profile_ctrl.js"></script>
+    <script type="text/javascript" src="modules/profile-view/profile_ctrl.js"></script>
+
+</head>
+
+<body ng-app="myApp">
+    <div ng-controller="mainCtrl">
+        <p ng-click="mybench()">gooo</p>
+        <button ng-click="getPro()">
+            get
+        </button>
+        <button ng-click="postPro()">
+            post
+        </button>
+        <button ng-click="delPro()">
+            delete
+        </button>
+    </div>
+
+    <div style="position: relative;" ui-view></div>
+
+
+</body>
+
+</html>
