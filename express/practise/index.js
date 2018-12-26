@@ -37,7 +37,7 @@ app.post('/new', (req, res) => {
   })
 
   app.get('/profile', (req, res)=>{
-    //   console.log(req, res)
+      console.log(req.body)
     res.send(profile)
   })
   app.post('/profile', (req, res) => {
